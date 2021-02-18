@@ -23,6 +23,11 @@ namespace Teste_04
         {
             double frete = (Valor * 0.1) + (Peso * 0.2);
 
+            if (Peso < 15000)
+            {
+                frete += 5000;
+            }
+
             return frete;
         }
     }

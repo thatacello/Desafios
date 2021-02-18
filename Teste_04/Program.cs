@@ -22,12 +22,12 @@ namespace Teste_04
             {
                 Console.WriteLine();
                 Console.WriteLine($"O frete do caminhão será: ${calculoCaminhao}");
-                Console.WriteLine($"O frete do vagão será: ${calculoVagao + 5000}");
+                Console.WriteLine($"O frete do vagão será: ${calculoVagao}");
             }
             else if (peso > 40000)
             {
                 Console.WriteLine();
-                Console.WriteLine($"O frete do caminhão será: ${calculoCaminhao * 0.75}");
+                Console.WriteLine($"O frete do caminhão será: ${calculoCaminhao}");
                 Console.WriteLine($"O frete do vagão será: ${calculoVagao}");
             }
         }
