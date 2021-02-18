@@ -6,12 +6,28 @@ namespace Teste_02
     {
         static void Main(string[] args)
         {
-            Console.Write("Digite o preço da carga: ");
-            double preco = double.Parse(Console.ReadLine());
+            Console.Clear(); // limpa o console
+            Console.ForegroundColor = ConsoleColor.Green; // troca a cor da letra do console
+            Console.WriteLine("------------------");
+            Console.WriteLine();
+            Console.WriteLine("Um Elefante Incomoda Muita Gente");
+            Console.WriteLine();
+            Console.WriteLine("------------------");
+            Console.WriteLine();
 
-            Console.Write("Digite o peso da carga: ");
-            double peso = double.Parse(Console.ReadLine());
+            Console.Write("Digite um número inteiro: ");
+            int n = int.Parse(Console.ReadLine());
 
+            Console.WriteLine();
+
+            // output
+            Console.WriteLine($"{n} elefantes...");
+            
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write($"Incomoda ");
+            }
+            Console.WriteLine("muito mais");
 
         }
     }
